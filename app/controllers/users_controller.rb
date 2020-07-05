@@ -10,7 +10,8 @@ class UsersController < ApplicationController
 		if @user.save
 			redirect_to new_user_path
 		else
-			render :new
+			flash[:errors] = @user.errors.full_messages
+			redirect_to new_user_path
 		end
 	end
 
