@@ -1,3 +1,16 @@
+<% if flash[:one_hundred_percent] %>
+	<% flash[:one_hundred_percent].each do |e|%>
+		<p> <%=  e %> </p>
+	<% end%>
+<% end%>
+
+<% if flash[:errors] %>
+	<% flash[:errors].each do |e|%>
+		<p> <%=  e %> </p>
+	<% end%>
+<% end%>
+
+
 <%= form_for @user do |f| %>
 	<%= f.label :username, 'Your username:' %>
   <%= f.text_field :username, placeholder: "xxxxyyy" %>
