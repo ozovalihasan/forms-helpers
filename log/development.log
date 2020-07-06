@@ -2846,3 +2846,1628 @@ Processing by UsersController#edit as HTML
 Completed 200 OK in 47ms (Views: 39.2ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/users/new" for ::1 at 2020-07-06 18:34:51 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/hasan/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (94.2ms)
+  Rendered users/new.html.erb within layouts/application (100.2ms)
+Completed 200 OK in 1070ms (Views: 1007.6ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:35:29 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.7ms)
+  Rendered users/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:35:50 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (9.3ms)
+  Rendered users/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 61ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:36:24 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+...ActionView::OutputBuffer.new; <form action="/users" accept-c...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+...w; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+
+<!-- 
+
+'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:14: unknown regexp option - r
+app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:44: unterminated string meets end of file
+app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end
+app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb___3229478229997086416_69840211842920'
+Started GET "/users/new" for ::1 at 2020-07-06 18:36:29 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+...ActionView::OutputBuffer.new; <form action="/users" accept-c...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+...w; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+
+<!-- 
+
+'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:14: unknown regexp option - r
+app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:44: unterminated string meets end of file
+app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end
+app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb___3229478229997086416_69840211830500'
+Started GET "/users/new" for ::1 at 2020-07-06 18:36:33 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.4ms)
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+...ActionView::OutputBuffer.new; <form action="/users" accept-c...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+...w; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+
+<!-- 
+
+'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:14: unknown regexp option - r
+app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:44: unterminated string meets end of file
+app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end
+app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb___3229478229997086416_69840212009100'
+Started GET "/users/new" for ::1 at 2020-07-06 18:36:36 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.6ms)
+  Rendered users/new.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+...ActionView::OutputBuffer.new; <form action="/users" accept-c...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+...w; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+
+<!-- 
+
+'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:14: unknown regexp option - r
+app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:44: unterminated string meets end of file
+app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end
+app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb___3229478229997086416_69840212335380'
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:36:42 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (5.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/edit.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 5.3ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+...ActionView::OutputBuffer.new; <form action="/users" accept-c...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+...w; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+
+<!-- 
+
+'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected '<'
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:14: unknown regexp option - r
+app/views/users/_form.html.erb:14: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:17: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:19: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:21: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:38: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:44: unterminated string meets end of file
+app/views/users/_form.html.erb:44: syntax error, unexpected end-of-input, expecting end
+app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___547065859062132605_69840212787420'
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:36:52 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.0ms)
+  Rendered users/edit.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 1.0ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<', expecting end
+'.freeze; <form action="/users" accept-c...
+          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+...e; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:12: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: end pattern with unmatched parenthesis: /form> %>
+
+
+'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:16: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:18: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:20: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:22: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:37: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:39: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:45: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:45: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:3: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:6: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:8: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:10: syntax error, unexpected '<'
+app/views/users/_form.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:12: syntax error, unexpected '<'
+app/views/users/_form.html.erb:15: unknown regexp option - r
+app/views/users/_form.html.erb:15: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:16: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:18: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:20: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:22: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:37: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:39: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:45: unterminated string meets end of file
+app/views/users/_form.html.erb:45: syntax error, unexpected end-of-input, expecting end
+app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___547065859062132605_69840213404580'
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:37:57 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/hasan/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/edit.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 1.2ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<', expecting end
+'.freeze; <form action="/users" accept-c...
+          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...e; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:11: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: unknown regexp option - r
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: end pattern with unmatched parenthesis: /form> %>
+
+'.freeze; if false
+@output_buffer.safe_append='
+	'.freeze;@output_buffer.append=  form_tag("/
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting end
+...ffer.append=  form_tag("/users", method: "post") do @output_...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting end
+...orm_tag("/users", method: "post") do @output_buffer.safe_app...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:16: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:username, "Username:") );@output_buffer.safe_app...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:18: syntax error, unexpected tCONSTANT, expecting end
+...pend=( label_tag(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:20: syntax error, unexpected tCONSTANT, expecting end
+... label_tag(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:22: syntax error, unexpected tCONSTANT, expecting end
+...fer.append=( submit_tag("Submit") );@output_buffer.safe_appe...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting end
+...username, placeholder: "xxxxyyy" );@output_buffer.safe_appen...
+...                        ^~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:35: syntax error, unexpected tCONSTANT, expecting end
+...append=( f.label(:email, "Email:") );@output_buffer.safe_app...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting end
+...ield :email, placeholder: "xxxx@yyy.com" );@output_buffer.sa...
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:37: syntax error, unexpected tCONSTANT, expecting end
+...=( f.label(:password, "Password:"));@output_buffer.safe_appe...
+...                       ^~~~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:39: syntax error, unexpected tCONSTANT, expecting end
+...uffer.append=( f.submit "Submit" );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:46: unterminated string meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:46: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:2: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:11: syntax error, unexpected '<'
+app/views/users/_form.html.erb:15: unknown regexp option - r
+app/views/users/_form.html.erb:15: end pattern with unmatched parenthesis: /form> %>
+app/views/users/_form.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/users/_form.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:16: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:18: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:20: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:22: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:35: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:37: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:39: syntax error, unexpected tCONSTANT, expecting end
+app/views/users/_form.html.erb:46: unterminated string meets end of file
+app/views/users/_form.html.erb:46: syntax error, unexpected end-of-input, expecting end
+app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb__219268129123200840_47145781505980'
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:38:16 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered users/edit.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected '<', expecting end
+'.freeze; <form action="/users" accept-c...
+          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+...e; <form action="/users" accept-charset="UTF-8" method="post...
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+..." accept-charset="UTF-8" method="post">
+...                         ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+	<input type="hidden" name="aut...
+	^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+	<input type="hidden" name="authenticity_token" value="...
+	                     ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+...name="authenticity_token" value="<%= form_authenticity_token...
+...                          ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+  <label for="username">Username...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:4: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="username">Username:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+  <input type="text" id="usernam...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="text" id="username" name="user[userna...
+                     ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+... type="text" id="username" name="user[username]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+...ername" name="user[username]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+  <label for="email">Email:</label>
+                          ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+  <input type="email" id="email"...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="email" id="email" name="user[email]"><...
+                      ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+...ut type="email" id="email" name="user[email]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+...id="email" name="user[email]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:8: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...<label for="password">Password:</label>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+  <input type="password" id="pas...
+  ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="password" id="password" name="user[passwo...
+                         ^~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+...e="password" id="password" name="user[password]"><br><br>
+...                           ^~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+...ssword" name="user[password]"><br><br>
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+  <input type="submit" value="Submit">
+                       ^~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:11: syntax error, unexpected '<'
+</form> %>
+^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: unterminated regexp meets end of file
+          end
+              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/users/_form.html.erb:2: syntax error, unexpected '<', expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected '<'
+app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:4: syntax error, unexpected '<'
+app/views/users/_form.html.erb:4: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:5: syntax error, unexpected '<'
+app/views/users/_form.html.erb:6: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:7: syntax error, unexpected '<'
+app/views/users/_form.html.erb:8: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:9: syntax error, unexpected '<'
+app/views/users/_form.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/users/_form.html.erb:11: syntax error, unexpected '<'
+app/views/users/_form.html.erb:17: unterminated regexp meets end of file
+app/views/users/_form.html.erb:17: syntax error, unexpected end-of-input, expecting end
+app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb__219268129123200840_70066989233360'
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:38:38 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 346ms (Views: 339.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:38:44 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered users/edit.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:40:00 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered users/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 46ms (Views: 38.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:40:21 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.3ms)
+  Rendered users/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 47ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:41:03 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.3ms)
+  Rendered users/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 42ms (Views: 39.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:41:13 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.5ms)
+  Rendered users/edit.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 55ms (Views: 49.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:41:21 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.1ms)
+  Rendered users/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 155ms (Views: 59.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:42:10 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered users/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:42:31 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:42:58 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.1ms)
+  Rendered users/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:43:11 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.2ms)
+  Rendered users/edit.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 55ms (Views: 51.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/new" for ::1 at 2020-07-06 18:43:17 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/2/new"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/2/edit" for ::1 at 2020-07-06 18:43:23 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.4ms)
+  Rendered users/edit.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:43:33 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-07-06 18:43:52 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"eVexm9m6XZh+qg91bNxt7Cq/1dZqjdxFLZ9kX6cRT7APyfTS8lQ433PsXDjRU6EjqKljXg07z3Hc555l+TtlBg==", "user"=>{"username"=>"hasanhillary", "email"=>"asdf@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (16.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "hasanhillary"], ["email", "asdf@gmail.com"], ["password", "asdfasdf"], ["created_at", "2020-07-06 15:43:52.275632"], ["updated_at", "2020-07-06 15:43:52.275632"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (97.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 122ms (ActiveRecord: 113.9ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:43:52 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.5ms)
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 93ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/users/3/edit" for ::1 at 2020-07-06 18:44:44 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.5ms)
+  Rendered users/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 46ms (Views: 42.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/3/edit" for ::1 at 2020-07-06 18:47:19 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered users/edit.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:18: syntax error, unexpected '<', expecting ')'
+...tput_buffer.append=( form_tag(<%= users_path );@output_buffe...
+...                              ^
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:26: syntax error, unexpected end, expecting ')'
+'.freeze; end 
+          ^~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:48: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/hasan/Downloads/microverse/forms-helpers/app/views/users/_form.html.erb:50: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/users/_form.html.erb:18: syntax error, unexpected '<', expecting ')'
+app/views/users/_form.html.erb:26: syntax error, unexpected end, expecting ')'
+app/views/users/_form.html.erb:48: syntax error, unexpected ensure, expecting ')'
+app/views/users/_form.html.erb:50: syntax error, unexpected end, expecting ')'
+app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb__219268129123200840_70066928538700'
+Started GET "/users/3/edit" for ::1 at 2020-07-06 18:48:25 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.4ms)
+  Rendered users/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 49ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:49:01 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-07-06 18:49:11 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KUluDVuBYEbYDXoCpjCnvL/WJkMSuXtHKMGU9Yi12Wlf1ytEcG8FAdVLKU8bv2tzPcCQy3UPaHPZuW7P1p/z3w==", "username"=>"ozovalihasan", "email"=>"asdasd@gmail.com", "password"=>"[FILTERED]", "commit"=>"Submit"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:36:in `user_params'
+app/controllers/users_controller.rb:8:in `create'
+Started POST "/users" for ::1 at 2020-07-06 18:49:43 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KUluDVuBYEbYDXoCpjCnvL/WJkMSuXtHKMGU9Yi12Wlf1ytEcG8FAdVLKU8bv2tzPcCQy3UPaHPZuW7P1p/z3w==", "username"=>"ozovalihasan", "email"=>"asdasd@gmail.com", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "ozovalihasan"], ["email", "asdasd@gmail.com"], ["password", "asdfasdf"], ["created_at", "2020-07-06 15:49:43.119905"], ["updated_at", "2020-07-06 15:49:43.119905"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (101.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 130ms (ActiveRecord: 103.4ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:49:43 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/users/new" for ::1 at 2020-07-06 18:52:35 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (39.7ms)
+  Rendered users/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 108ms (Views: 77.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:52:41 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (5.4ms)
+  Rendered users/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:55:13 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (9.6ms)
+  Rendered users/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-07-06 18:55:21 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (8.4ms)
+  Rendered users/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
