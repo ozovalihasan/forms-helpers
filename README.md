@@ -19,8 +19,8 @@ The purpose of this project is to teach multiple ways of building a form in rail
 In this project, the following actions are done;
 
 - Created and migrated a User model with :username, :email and :password
-- Created HTML form to add a new user or to edit any user
-- Created form with form_tag and form_for helpers
+- Built HTML form to add a new user or to edit any user
+- Refactor form by using form_tag and form_for helpers
 
 ## Built With
 
