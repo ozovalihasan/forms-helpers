@@ -8,11 +8,11 @@ class UsersController < ApplicationController
 		@user = User.new(user_params)
 	
 		if @user.save
-			redirect_to new_user_path
+			flash[:info] = ["The user is saved successfully."]
 		else
-			flash[:errors] = @user.errors.full_messages
-			redirect_to new_user_path
+			flash[:info] = @user.errors.full_messages
 		end
+		redirect_to new_user_path
 	end
 
 	def edit
@@ -22,12 +22,13 @@ class UsersController < ApplicationController
 	def update
 		user = User.find(params[:id])
 		if user.update(user_params)
+			flash[:info] = ["The user is edited successfully."]
 			@user = User.find(params[:id]).update user_params
 		else
-			flash[:errors] = user.errors.full_messages
-			redirect_to edit_user_path(user)
+			flash[:info] = user.errors.full_messages
 		end
-		
+		redirect_to edit_user_path(user)
+
 	end
 
 	private
