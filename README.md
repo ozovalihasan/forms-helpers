@@ -10,18 +10,16 @@
 
 > Bare Metal Forms and Helpers
 
-
-
 ## Description
 
 The purpose of this project is to teach multiple ways of building a form in rails which can send parameters to a controller so that it can build an instance of a model with those parameters.
 
-
 ## Features
 
 In this project, the following actions are done;
+
 - Created and migrated a User model with :username, :email and :password a Users model
-- Created HTML form.
+- Created HTML form to add a new user or to edit any user
 - Created form with form_tag and form_for helpers
 
 ## Built With
@@ -30,7 +28,6 @@ In this project, the following actions are done;
 - Git
 - Shields.io
 
-
 ## Setup
 
 - Clone this repository
@@ -38,8 +35,8 @@ In this project, the following actions are done;
 - Change directory by using `cd form-helpers/`
 - Run `bundle install`
 - Open rails server by using `rails s`
-- Open browser and go to http://localhost:3000/users/new or http://localhost:3000/users/id/edit i.e http://localhost:3000/3/edit  
-
+- Open browser and go to http://localhost:3000/users/new or http://localhost:3000/users/id/edit i.e http://localhost:3000/3/edit
+- Add a new user or edit any user by using user's id
 
 ## Authors
 
