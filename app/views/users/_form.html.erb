@@ -20,6 +20,7 @@
 	<%= password_field_tag(:password) %>
 	<%= submit_tag("Submit") %> 
 <% end %>
+ -->
 
 <% if flash[:info] %>
 	<% flash[:info].each do |e|%>
@@ -27,7 +28,6 @@
 	<% end%>
 <% end%>
 
- -->
 
 
 <%= form_for @user do |f| %>

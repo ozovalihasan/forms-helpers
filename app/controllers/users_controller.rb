@@ -7,12 +7,13 @@ class UsersController < ApplicationController
     # @user = User.new(username: params[:username], email: params[:email], password: params[:password])
     @user = User.new(user_params)
 
-    flash[:info] = if @user.save
-                     ['The user is saved successfully.']
-                   else
-                     @user.errors.full_messages
-                   end
-    redirect_to new_user_path
+    if @user.save
+      flash[:info] = ['The user is saved successfully.']
+      redirect_to new_user_path
+    else
+      flash[:info] = @user.errors.full_messages
+      render :new
+    end
   end
 
   def edit
@@ -20,14 +21,16 @@ class UsersController < ApplicationController
   end
 
   def update
-    user = User.find(params[:id])
-    if user.update(user_params)
+    @user = User.find(params[:id])
+    if @user.update(user_params)
       flash[:info] = ['The user is edited successfully.']
       @user = User.find(params[:id]).update user_params
+      redirect_to edit_user_path(user)
+
     else
-      flash[:info] = user.errors.full_messages
+      flash[:info] = @user.errors.full_messages
+      render action: 'edit'
     end
-    redirect_to edit_user_path(user)
   end
 
   private
